@@ -33,7 +33,7 @@ p {
   transform: rotate(30deg);
   display: inline-block;
   text-align: center;
-  width: 40%;
+  width: 300px;
   position: absolute;
 }
 
