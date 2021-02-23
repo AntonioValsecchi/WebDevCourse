@@ -31,13 +31,29 @@ p {
 
 .title-img {
   transform: rotate(30deg);
-  display: block;
-  width: 60%;
+  display: inline-block;
+  text-align: center;
+  width: 40%;
   position: absolute;
+}
+
+@media (max-width: 1024px) {
+  .titles {
+    text-align: center;
+  }
+
+  .title-img {
+    transform: rotate(0deg);
+    padding-top: 5%;
+    display: inline-block;
+    width: 60%;
+    position: static;
+  }
 }
 
 .titles {
   padding-top: 4.5rem;
+  text-align: center;
 }
 
 /* Navigation Bar */
@@ -84,7 +100,6 @@ p {
 
 /* Testimonials */
 #testimonials {
-
   text-align: center;
   background-color: #EF8172;
   color: #fff;
@@ -100,8 +115,8 @@ p {
   padding: 7% 15%;
 }
 
-    /* Press */
-#press{
+/* Press */
+#press {
   background-color: #EF8172;
   text-align: center;
   padding-bottom: 3%;
@@ -118,6 +133,6 @@ p {
 }
 
 .pricing-col {
-  padding:  3% 2%;
+  padding: 3% 2%;
   text-align: center;
 }
