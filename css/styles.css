@@ -1,13 +1,5 @@
-h1 {
+h1 , h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
 }
@@ -18,6 +10,15 @@ body {
 
 p {
   color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 #title {
@@ -135,4 +136,43 @@ p {
 .pricing-col {
   padding: 3% 2%;
   text-align: center;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+  padding-bottom: 7%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
 }
